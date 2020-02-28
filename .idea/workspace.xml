@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectId" id="1YQvV0oa3Gct2AKlecpzs9FrRSe" />
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ApplicationInitializer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sampleAakashhello3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.freshworks.config.ApplicationInitializer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+</project>

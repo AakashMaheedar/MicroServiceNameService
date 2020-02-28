@@ -1,0 +1,6 @@
+com/freshworks/domain/MicroServiceName.class
+com/freshworks/service/MicroServiceNameService.class
+com/freshworks/repository/MicroServiceNameRepository.class
+com/freshworks/config/ApplicationInitializer.class
+com/freshworks/resources/MicroServiceNameController.class
+com/freshworks/exception/ApplicationException.class
