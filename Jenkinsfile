@@ -9,12 +9,18 @@ pipeline{
                git credentialsId: 'Github', url: 'https://github.com/AakashMaheedar/MicroServiceNameService'
             }
         }
-        stage("Maven Build"){
-            steps{
-                sh "mvn clean install"
-            }
+        stage('Maven Install') {
+              agent {
+                docker {
+                  image 'maven'
+                }
+              }
+              steps {
+                sh 'mvn clean install'
+              }
             }
         stage("Docker Image Build"){
+                agent any
                     steps{
                         sh "docker build  -f Dockerfile -t dockerimage.jar ."
 
