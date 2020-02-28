@@ -14,5 +14,11 @@ pipeline{
                 sh "mvn clean install"
             }
             }
+        stage("Docker Image Build"){
+                    steps{
+                        sh "docker build  -f Dockerfile -t dockerimage.jar ."
+"
+                    }
+              }
         }
 }
